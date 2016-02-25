@@ -13,4 +13,4 @@ for i in range(0, 10000):
 #print(validCalendars)
 with open("validCalendars.txt", "w") as file:
     for validCalendarCode in validCalendars:
-        file.write(calendarFormat.format(validCalendarCode))
+        file.write(calendarFormat.format(validCalendarCode) + "\n")
